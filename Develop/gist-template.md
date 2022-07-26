@@ -103,4 +103,4 @@ $ → states the end of rules to be applied
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
 
-This gist was created by Paulo Oliveira, a soon to be full stack junior web developer. Currently attending Rutgers University full-stack web development bootcamp. Github profile: paulooliveira152012
+This gist was created by Paulo Oliveira, a soon to be full stack junior web developer. Currently attending Rutgers University full-stack web development bootcamp. Github profile: https://github.com/paulooliveira152012
