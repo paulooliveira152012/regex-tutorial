@@ -26,7 +26,7 @@ I’ll be describing an email validator regex and explain how each character or 
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Regex Components individual characters](#Regex-Components-individual-characters)
+- [Regex Components individual characters]
 
 ## Regex Components
 
@@ -57,46 +57,6 @@ Grouping and capturing are necessary to specify which rules apply to each area o
 
 ### Bracket Expressions
 Bracket Expressions allow us to tell regex to choose only one out of several characters, being them within a range of 2 extremes or literal characters. We apply them through square brackets. From the example we have:  [a-z0-9_\.-], in this case, the search and\or replace will look for patterns that have either of the characters represented inside the square brackets.
-
-
-## Regex Components individual characters
-An individual breakdown of each character and how they affect the regex:
-/ → delimiter indicating the beginning of the regex specifications
-^ → stating that the rules to elements starts off from the beginning
-( → opening grouping delimiter 
-[ → opening character class delimiter
-A → starting character from
-- → “through” specifying the range of characters
-Z → ending point at
-0 → starting at number
-- →“through” specifying the range of characters
-9 → ending at number
-_ → matches this character
-\. → matches this character (.)
-- → matches this character
-] → closing character delimiter
-+ → implicates that the previous token can be repeated many times ([content])
-) → closing group delimiter
-@ → matches this character
-( → opening grouping delimiter 
-[ → opening character class delimiter
-\d → matches a digit, anything from 0-9
-A-z → range between a through z
-\. → matches this character (.)
-- → matches this character (-)
-] → closing character delimiter
-+ → implicates that the previous token can be repeated many times ([content])
-) → closing group delimiter
-\. → matches this character (.)
-( → opening grouping delimiter 
-[ → opening character class delimiter
-A-z → range between a through z
-\. → matches this character (.)
-] → closing character delimiter
-{2,6} → implicates that the previous token can repeat from 2 to 6 times
-) → closing group delimiter
-$ → states the end of rules to be applied
-/ → delimiter indicating the end of the regex specifications
 
 
 ## Author
